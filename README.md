@@ -2,7 +2,7 @@
 
 Handwired fork PNCATEHO by aroum [https://github.com/aroum/PNCATEHO]
 
-![Handwired PNCATEHO](https://cornedeon.ru/img/pncateho_1s.jpg)
+![Handwired PNCATEHO](img/all_pncatehos_2s.jpg)
 
 ## Case
 
