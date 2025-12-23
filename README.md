@@ -19,5 +19,5 @@ Thingiverse: https://www.thingiverse.com/thing:7178890
 * copy directory pncateho to qmk-vial/keyboards/alko/pncateho
 * run ```qmk compile -kb alko/pncateho -km vial```
 * flash file alko_pncateho_vial.uf2 to your rp2040
-* run vial app (or open https://vial.rocks) and load pncateho.vil
+* run vial app (or open https://vial.rocks) and load ![pncateho.vil](pncateho.vil)
 
