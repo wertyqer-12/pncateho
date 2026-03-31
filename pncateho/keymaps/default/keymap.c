@@ -22,16 +22,16 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                        A_SYM_H,  A_SYM_C,  A_SYM_N,  A_SYM_Y,
                                                      A_SYM_X,  A_SYM_S),
 
-    [_A_RGB]  = LAYOUT(A_RGB_B,  A_RGB_F,  A_RGB_T,  A_RGB_J,
-                       A_RGB_H,  A_RGB_C,  A_RGB_N,  A_RGB_Y,
-                                                     A_RGB_X,  A_RGB_S),
+    [_A_RGB]  = LAYOUT(KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
+                       KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
+                                                     KC_TRNS, KC_TRNS),
 
     [_A_MATH] = LAYOUT(A_MATH_B, A_MATH_F, A_MATH_T, A_MATH_J,
                        A_MATH_H, A_MATH_C, A_MATH_N, A_MATH_Y,
                                                      A_MATH_X, A_MATH_S),
 };
 
-#ifdef RGBLIGHT_ENABLE
+/*#ifdef RGBLIGHT_ENABLE
     const rgblight_segment_t PROGMEM capslock_layer[] = RGBLIGHT_LAYER_SEGMENTS(
         {0, 2, HSV_PURPLE});
     const rgblight_segment_t PROGMEM numlock_layer[] = RGBLIGHT_LAYER_SEGMENTS(
@@ -85,4 +85,4 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
             rgblight_set_layer_state(4, false);
         }
     }
-#endif
+#endif*/
