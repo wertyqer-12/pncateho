@@ -44,10 +44,10 @@
     #define RGBLIGHT_LAYERS_OVERRIDE_RGB_OFF
     #define RGBLIGHT_LAYERS
     #define WS2812_DI_PIN GP11
-#endif
+#endif*/
 
 // #endif
 
 
 
-/* #define UNUSED_PINS*/
+//#define UNUSED_PINS
