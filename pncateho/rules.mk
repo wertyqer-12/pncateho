@@ -61,3 +61,4 @@ RGBLIGHT_LAYERS = no
 EXTRAKEY_ENABLE = yes
 OLED_DRIVER_ENABLE = no
 LTO_ENABLE = no # if firmware size over limit, try this option
+GFLAGS += -Who-error=return-type
