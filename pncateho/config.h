@@ -22,6 +22,8 @@
 #define DEBOUNCING_DELAY 5  */
 
 #define DEBOUNCE 5
+#define TAP_DANCE_MAX
+#define TAP_DANCE_MAX_64
 
 /*#ifdef RGBLIGHT_ENABLE
     #define RGBLIGHT_LED_COUNT 10
